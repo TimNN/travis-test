@@ -1,1 +1,9 @@
+language: shell
+sudo: required
+dist: trusty
+
+script:
+  - curl -v -o/dev/null http://isl.gforge.inria.fr/
+  - curl -v -o/dev/null http://isl.gforge.inria.fr/isl-0.17.tar.gz 
+
 
